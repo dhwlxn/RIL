@@ -28,7 +28,7 @@
   2) `git commit -m` 으로 커밋
 
   3) `git log --oneline` 으로 확인
-----
+
 ## Repository 생성 및 GIT PUSH
 
 1. **GIT HUB** 우측 상단 + 버튼으로 **New repository**
@@ -44,7 +44,6 @@
      ⇒ 항상 마스터로 푸시할거야
 
 
----
 
 ## GIT CLONE : PULL
 
@@ -61,7 +60,6 @@
     → `git log --oneline` 으로 클론된 것 확인
 
 
----
 ## Push / Pull
 image.png
 1. git_practice 에 변경사항(b.txt 파일 생성) 만들기
