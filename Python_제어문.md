@@ -10,7 +10,8 @@
 ### **조건문(Conditional Statement)**
 
 : 참/거짓 판단하는 조건식과 함께 사용
-    image.png
+![image](https://user-images.githubusercontent.com/109324394/180641403-46d6b6b4-6e12-4884-b477-84c797c81f78.png)
+
 
 
 - **조건문 기본**
