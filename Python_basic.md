@@ -69,7 +69,7 @@
 
 : 프로그래밍에서 사용할 수 있는 데이터 종류를 자료형이라 함.
 
-image.png
+![image](https://user-images.githubusercontent.com/109324394/180641517-7656be93-7d54-42e0-9535-7b3ff6fe3d5d.png)
 
 
 ### **수치형 (Numeric Type)**
@@ -89,6 +89,9 @@ image.png
     - **해결책)** 값 비교하는 과정에서 정수가 아닌 실수면 주의
         1. 매우 작은 수보다 작은지 확인     
             ⇒ 1e - 10 과 비교
+            => abs(a,b) <= 1e - 10 #True
+            ![image](https://user-images.githubusercontent.com/109324394/180641542-7dba84f5-5e98-40b8-9e73-6a3b704c798e.png)
+
         2.  math 모듈 활용  
             ⇒ math 모듈 활용 math.isclose(a, b)
     
@@ -106,7 +109,8 @@ image.png
     - 따옴표 안에 따옴표 넣을때
     - 여러 줄 나눠 입력할 때 편리
 - **Escape sequence**   
-  image.png
+![image](https://user-images.githubusercontent.com/109324394/180641570-7ba4c49a-b2fe-4732-bbea-54d9d7241c0e.png)
+
 
   - \n : 엔터
   - 캐리지 리턴 : 커서를 앞으로 이동
@@ -121,7 +125,7 @@ image.png
 
 - **String Interpolation** : 문자열을 변수와 함께 쓰는 방법
 
-이전)
+이전) ![image](https://user-images.githubusercontent.com/109324394/180641591-2f7665bf-83b7-40be-ad14-aa531afb35f9.png)
 
 현재)  **f-strings** : 원하는 대로 문자열 + 변수를 출력할 수 있음. 
 
@@ -134,22 +138,14 @@ image.png
 
 : 파이썬 자료형 중 하나, 값이 없음을 표현, 반환 값이 없는 함수에서 사용
 
-### **불린형(Boolean)**
-
-:논리 자료형, 참과 거짓을 표현, True or False, 비교/논리 연산에서 활용
-
-- **비교 연산자** : 등호, 부등호, 주로 조건문에서 값 비교할 때 (결과 True/False 로 리턴)
-    ### None
-
-: 파이썬 자료형 중 하나, 값이 없음을 표현, 반환 값이 없는 함수에서 사용
 
 ### 불린형(Boolean)
 
 :논리 자료형, 참과 거짓을 표현, True or False, 비교/논리 연산에서 활용
 
-image.png
-
 - **비교 연산자** : 등호, 부등호, 주로 조건문에서 값 비교할 때 (결과 True/False 로 리턴)
+![image](https://user-images.githubusercontent.com/109324394/180641677-ad323d63-55dc-4085-8359-06005d88b3d6.png)
+![image](https://user-images.githubusercontent.com/109324394/180641685-deec47dd-025b-4550-9f84-fd29743bba58.png)
   
   - 논리 연산자 **주의할 점**
     - **Falsy** : False 는 아니지만 False 로 취급되는 다양한 값
@@ -164,8 +160,7 @@ image.png
     - or 연산 ) 첫번째 값이 True 인 경우 무조건 True ⇒ 첫번째 값 반환
         - 0 = False
         - 1 = True
-
-image.png
+![image](https://user-images.githubusercontent.com/109324394/180641701-4be42f2b-f8c1-485b-9c9d-8f35e4969b69.png)
 
 a) 3 = T , and → 뒷 값 확인 : 5 = T ⇒ 반환값 : 5    
 b) 3 = T , and -> 0 : F => 반환값 : 0   
@@ -176,6 +171,8 @@ e) 5 = T , or => 무조건 T => 반환값 : 5
 f) 3 = T , or => 무조건 T => 반환값 : 3
 g) 0 = F , or => 뒷 값 확인 : 3 = T => 반환값 : 3
 h) 0 = F , or => 뒷 값 확인 : 0 = F => 반환값 : 0 (뒤의 0)
+
+
 ### **컨테이너 (자료구조)**
 
 : 변수 여러개 값(데이터) 담을 수 있는 객체, 서로 다른 자료형 저장 가능 
@@ -187,7 +184,7 @@ h) 0 = F , or => 뒷 값 확인 : 0 = F => 반환값 : 0 (뒤의 0)
         
         ⇒ 순서가 있다 != 정렬되어 있다. (아님)
         
-image.png
+![image](https://user-images.githubusercontent.com/109324394/180641717-83340d43-8d50-487f-b597-079f2c7ba43d.png)
     
     - 가변형 : 변형 가능
 
@@ -311,7 +308,7 @@ image.png
     - 딕셔너리 생성
         - 중괄호({}) 혹은 dict() 으로 생성
     
-image.png
+![image](https://user-images.githubusercontent.com/109324394/180641735-41d584a1-1ebb-4003-9b98-60cb8074d5a2.png)
     
  <<<복습
     
